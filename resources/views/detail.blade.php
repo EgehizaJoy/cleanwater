@@ -258,10 +258,25 @@ if(Session::has('user'))
    <div class="container">
    <div class="dvicuctomereview csmreviews">
    <div class="container">  
-    <p class="reviewname">Alexander</p>
+    <p class="reviewname">Joy</p>
   
-    <div class="reviews">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         Mauris hendrerit condimentum sapien ut convallis.
+    <div class="reviews">Clean and with proper packaging.
+    </div>
+  
+    <p class="reviewtime">February 10, 2021 </p>
+  </div>
+
+    
+   </div>
+</div>
+<!---->
+
+<div class="container">
+   <div class="dvicuctomereview csmreviews">
+   <div class="container">  
+    <p class="reviewname">Charity</p>
+  
+    <div class="reviews">Loved the water and was deliverd on time.
     </div>
   
     <p class="reviewtime">February 10, 2021 </p>
@@ -289,26 +304,7 @@ if(Session::has('user'))
 </div>
 <!---->
 
-<div class="container">
-   <div class="dvicuctomereview csmreviews">
-   <div class="container">  
-    <p class="reviewname">Alexander</p>
-  
-    <div class="reviews">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-         Mauris hendrerit condimentum sapien ut convallis.
-    </div>
-  
-    <p class="reviewtime">February 10, 2021 </p>
-  </div>
 
-    
-   </div>
-</div>
-<!---->
-
-<div class="container text-center">
-     <button class="btnshowall">Show All</button>
-    </div>
 </div><!-- end of left side -->
 
 <div class="col-md-6"> <!-- start of the rigth side -->

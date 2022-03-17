@@ -91,7 +91,7 @@ if(Session::has('user'))
 									<h5 class="card-title text-center"><a href="#" class="text-decoration-none text-dark">{{$product->product_name}}</a></h5>
 									<p class="card-text text-center text-secondary text-opacity-50 fs-6"><small>{{$product->extra_detail}}</small></p>
 									
-									<p class="text-primary fw-bold" id="price">Ksh. {{$product->price}}</p> 
+									<p class="text-primary fw-bold" id="price">$ {{$product->price}}</p> 
 								</a>
 									@if($product->qty > 0)
 									@if(Session::has('user'))

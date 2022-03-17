@@ -220,7 +220,7 @@ Checkout<p>
                         <div class="form-check">
                           <input class="form-check-input" type="checkbox" name=""value="Mpesa" id="flexCheckDefault1">
                           <label class="form-check-label" for="flexCheckDefault">
-                            Mpesa
+                            PayPal
                           </label>
                         </div>
                         </div>
@@ -249,11 +249,10 @@ Checkout<p>
 <!------------MPESA STK FORM ------------>
 <!-- form -->
 
-<form class="needs-validation"  action="{{ route('lipa', $total )}}"  method="POST" id="recap">
+<form class="needs-validation"  action="{{ url('charge') }}" method="post">
                @csrf
 
-             <input type="phone" id="phone" class="inpt"
-             name="phone">
+           
                 
             
                         </div>
@@ -290,8 +289,8 @@ Checkout<p>
                         <div class="col-md-2">
                         <div class="extraprddetailbox">
 
-                        <p class="extraprddetail">Ksh. {{ $total }}</p>
-                        <p class="extraprddetail">Ksh. 88</p>
+                        <p class="extraprddetail">$ {{ $total }}</p>
+                        <p class="extraprddetail">$ 8</p>
                         </div>
                         <div>
 
@@ -315,7 +314,9 @@ Checkout<p>
 
                         <div class="col-md-3">
                         <div class="extraprddetailbox">
-                        <p class="ttl">Ksh. {{ $total+88 }}</p>
+                        <p class="ttl">$ {{ $total+8 }}</p>
+                        <input  type="text" name="amount" value="{{ $total+8 }}" hidden/>
+            
                         </div>
                         <div>
 
@@ -324,17 +325,11 @@ Checkout<p>
                         </div>
                         <!-- end -->
 
-                                  
+       
                             
-
-                        <!-- button -->
-                        <button class="btn btn-primary btn-lg btn-block" 
-                                        type="submit" >@lang('Pay Now')</button>
-
-
-
-<!-- end -->
-
+                        <input type="submit" class="btn btn-primary btn-lg btn-block" 
+                        name="submit" value="Pay Now">
+                        
 </form>
 <!--END FORM -------------------------------------------------------->
 
@@ -385,7 +380,7 @@ class="close" ><span aria-hidden="true">&times;</span></a>
 <!--<button type="button" class="close" >
           <span aria-hidden="true">&times;</span>
         </button>--><br><br>
-        <p class="itemname float-right">Ksh. {{ $item->price * $item->cart_qty}} </p> 
+        <p class="itemname float-right">$ {{ $item->price * $item->cart_qty}} </p> 
             
 
 </td>

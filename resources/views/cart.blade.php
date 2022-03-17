@@ -183,14 +183,14 @@
             
    
 
-                <td >Ksh.
+                <td >$
                 {{ $item->price }}
                     </td> 
 
                 
                 
 
-                <td >Ksh.
+                <td >$
                 {{ $item->price * $item->cart_qty}}
                     </td> 
 
@@ -224,7 +224,7 @@
                         
                         <td colspan="3" class=" ">
                             <p>total</p>
-                             Ksh {{ $total }}
+                             $ {{ $total }}
                         </td>
             </tr>
  

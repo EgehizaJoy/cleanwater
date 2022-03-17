@@ -64,11 +64,8 @@ class OrderController extends Controller
 			
             $stock->where('product_id',$order->product_id)
             
-            //->update(['quantity' => $stock->quantity-$order->quantity]);
-            
-
-            ->decrement('quantity', $order->quantity)
-            ->update(['quantity']);
+            ->update(['quantity' => $stock->quantity-$order->quantity]);
+      
 
         }
      

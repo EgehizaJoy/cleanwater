@@ -54,8 +54,8 @@
             @endif
 			
 					<h2 class="display-5 fw-bold mt-5 text-white text-end mb-5">Enjoy Life's <br>Goodness In <br>Every Drop</h2>
-					<p class="text-description text-white text-end mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br> 
-					Integer eget vulputate est, vitae efficitur turpis. Nullam <br>porttitor, dui eu laoreet ultricies,.</p>
+					<p class="text-description text-white text-end mb-5">Quality and natural water.<br> 
+					Clean and taken through a proper distilling process.</p>
 					<button class="btn btn-outline-light fw-bold float-end mb-5" style="width:162px;height:56px;">Order Water</button>
 				</div>	
 			</div>
@@ -97,31 +97,31 @@
 			<div class="col-md-6 col-sm-12" id="blob" style="background-image:url('{{url('images/bg-transparent.png')}}');background-size:auto;background-repeat:no-repeat;background-position:left 70% bottom 55%";">
 				<h2 class="heading text-center text-white mt-5" style="font-weight:900;font-size:42px;">Why our water is the best</h2>
 				<div class="container mt-3">
-					<p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget vulputate est, vitae efficitur turpis. Nullam porttitor, dui eu laoreet ultricies,.</p>
+					<p class="text-white"></p>
 				</div>
 					<div class="container">
 						  <div class="row">
 							<div class="col fw-bold text-white" style="font-weight:900;font-size:48px;">
 							  01.
 							  <h6 class="fw-bold" style="font-weight:900;font-size:18px;">Natural Spring Water</h6>
-							  <p class="" style="font-weight:600;font-size:12px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget vulputate est, vitae efficitur turpis.</p>
+							  <p class="" style="font-weight:600;font-size:12px">Water is obtained from natural springs.</p>
 							</div>
 							<div class="col fw-bold text-white" style="font-weight:900;font-size:48px;">
 							  02
 							  <h6 class="fw-bold" style="font-weight:900;font-size:18px;">Health Benefits</h6>
-							   <p class="" style="font-weight:600;font-size:12px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget vulputate est, vitae efficitur turpis.</p>
+							   <p class="" style="font-weight:600;font-size:12px">Well distilled for your wellness</p>
 							</div>
 						  </div>
 						  	<div class="row">
 								<div class="col fw-bold text-white" style="font-weight:900;font-size:48px;">
 								  03.
 								  <h6 class="fw-bold" style="font-weight:900;font-size:18px;">Superior Packaging</h6>
-								   <p class="" style="font-weight:600;font-size:12px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget vulputate est, vitae efficitur turpis.</p>
+								   <p class="" style="font-weight:600;font-size:12px">Well tested and approved packaging.</p>
 								</div>
 								<div class="col fw-bold text-white" style="font-weight:900;font-size:48px;">
 								  04
 								  <h6 class="fw-bold" style="font-weight:900;font-size:18px;">Refreshing feeling</h6>
-								   <p class="" style="font-weight:600;font-size:12px">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer eget vulputate est, vitae efficitur turpis.</p>
+								   <p class="" style="font-weight:600;font-size:12px">Cool and refreshing</p>
 								</div>
 						  </div>
 
@@ -235,7 +235,7 @@
 				  <div class="card mt-5" style="width:300px;">
 					<div class="card-body">
 						<img src="images/airlines.png" class="img-fluid float-start" style="border-radius:50%;">
-						<p class="mt-4" style="font-weight:800;font-size:18px;">Airlines</p>
+						<p class="mt-4" style="font-weight:800;font-size:18px;">School event</p>
 					</div>
 				  </div>
 				</div>
@@ -257,10 +257,8 @@
 		<div class="col-md-9">
 			<div class="bg-clients w-100 mb-5">
 				<h2 class="fw-bold text-white ms-5" style="font-size:36px">What Our Clients Say</h2>
-				<p class="text-white mb-5 ms-5" style="margin-top:10%;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent eget<br> pulvinar 
-			nisi.Aenean sed sem venenatis, egestas felis vel, dictum urna.<br> Phasellus
-			rutrum placerat orci. Integer in varius ex. Praesent libero orci,<br> consectetur eget 
-			mauris in,</p>
+				<p class="text-white mb-5 ms-5" style="margin-top:10%;">Clean water wth best delivery
+			
 			<div class=" row text-white ms-5" style="">
 				<div class="col-3">
 					<h2>3k+</h2>

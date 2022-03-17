@@ -145,3 +145,9 @@ Route::get("/removeuser/{id}",[App\Http\Controllers\admin\UserController::class,
 
 
 Route::patch('update-cart', [App\Http\Controllers\CartController::class, 'updates'])->name('update.cart');
+
+
+//paypal
+Route::post('charge', 'App\Http\Controllers\PaymentController@charge');
+Route::get('success', 'App\Http\Controllers\PaymentController@success');
+Route::get('error', 'App\Http\Controllers\PaymentController@error');
