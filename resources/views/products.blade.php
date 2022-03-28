@@ -85,7 +85,7 @@ if(Session::has('user'))
 								<div class="card mx-auto mt-5 itemBox refillable" id="pcard" style="width:243px;height:217px;border-radius:18px;" >
 								<a href="detail/{{$product->id}}">
 									<div class="text-center" id="pills-refillable">
-										<img src="{{ asset('storage/images/' . $product->image) }}" class="card-img-top" id="product_image" alt="{{$product->product_name}}" >
+										<img src="{{ asset('public/images/' . $product->image) }}" class="card-img-top" id="product_image" alt="{{$product->product_name}}" >
 									</div>
 									<div class="card-body" >
 									<h5 class="card-title text-center"><a href="#" class="text-decoration-none text-dark">{{$product->product_name}}</a></h5>
