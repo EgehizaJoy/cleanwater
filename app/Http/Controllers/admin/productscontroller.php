@@ -103,7 +103,8 @@ class productscontroller extends Controller
      */
     public function store(Request $request)
     {
-        $product = Product::create($request->except(['_token']));
+        
+        $product = Product::create($request->all());
          
     
         if ($request->hasFile('image')) {
